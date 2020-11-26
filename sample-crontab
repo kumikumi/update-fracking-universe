@@ -1,0 +1,1 @@
+* */6 * * * cd /root/starbound/mods/FrackinUniverse && node /root/update-fracking-universe/update-fracking-universe.js >>/root/fracking-update.log 2>&1

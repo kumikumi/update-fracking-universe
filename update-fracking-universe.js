@@ -28,7 +28,7 @@ console.log(`current: ${currentReadable}`)
 
 if (currentRef !== latestReleaseRef) {
     console.log(`Checking out ${latestReadable}`)
-    run(`git checkout ${latestReleaseRef}`)
+    r(`git checkout ${latestReleaseRef}`)
     console.log("Restarting server...")
     run(RESTART_SERVER_COMMAND)
 } else {

@@ -13,6 +13,7 @@ const toStr = (ref) => {
 }
 
 // Code
+console.log(`==========${new Date().toISOString()}==========`)
 console.log("Fetching all tags...")
 run("git fetch --all --tags")
 
